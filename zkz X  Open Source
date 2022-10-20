@@ -283,8 +283,8 @@ _G.TracerColor = Color3.fromRGB(255, 80, 10)   -- The color that the tracers wou
 _G.TracerThickness = 1   -- The thickness of the tracers.
 _G.TracerTransparency = 0.7   -- The transparency of the tracers.
 
-_G.ModeSkipKey = Enum.KeyCode.E   -- The key that changes between modes that indicate where will the tracers come from.
-_G.DisableKey = Enum.KeyCode.Q   -- The key that disables / enables the tracers.
+_G.ModeSkipKey = Enum.KeyCode.N   -- The key that changes between modes that indicate where will the tracers come from.
+_G.DisableKey = Enum.KeyCode.M   -- The key that disables / enables the tracers.
 
 local function CreateTracers()
     for _, v in next, Players:GetPlayers() do
